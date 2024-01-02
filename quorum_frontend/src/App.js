@@ -4,9 +4,9 @@ import MainLayout from './layout/MainLayout';
 function App() {
   return (
     <ChakraProvider>
-      <main className="App">
+      <div className="App">
         <MainLayout />
-      </main>
+      </div>
     </ChakraProvider>
 
   );
